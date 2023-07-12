@@ -1,0 +1,1703 @@
+{
+  "name": "Linuxer Assistant-action",
+  "type": "action",
+  "valid": true,
+  "status": "Available",
+  "created": "2023-07-06T07:59:59.427Z",
+  "updated": "2023-07-12T19:37:22.861Z",
+  "language": "en",
+  "skill_id": "1b9cc06c-531b-4a38-90f1-4a3ae213519e",
+  "workspace": {
+    "actions": [
+      {
+        "steps": [
+          {
+            "step": "step_578",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Divisi yang ada di BLUG terdiri dari :\n\n\n  - **Inti :** Divisi yang mengurus segala kepengurusan BLUG, dalam segi administrasi dan manajemen\n  - **Siber :** Divisi yang menaungi Dunia Siber, memiliki tujuan belajar dan berbagi agar cakap dalam *Cybersecurity*\n  - **Programming :** Divisi yang menaungi Dunia Pemrograman, memiliki tujuan belajar dan berbagi agar cakap dalam pengembangan aplikasi\n  -"
+                          },
+                          {
+                            "scalar": " **Media Dan Informasi :** Divisi yang bertanggung jawab untuk Media Sosial BLUG, mengembangkan kreatifitas anggota untuk menciptakan konten berkualitas.\n\n*#GoOpenSource!*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_578"
+          }
+        ],
+        "title": "Divisi",
+        "action": "action_1861",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_1861_intent_8007"
+        },
+        "variables": [
+          {
+            "title": "Divisi yang ada di BLUG terdiri dari : - **Inti :** Divisi yang ",
+            "variable": "step_578",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_37739",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_653",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Open source adalah jenis pengembangan perangkat lunak di mana kode sumber tersedia untuk umum bagi siapa saja untuk memeriksa, memodifikasi, dan mendistribusikan kembali. Ini berarti bahwa siapa pun dapat berkontribusi pada pengembangan perangkat lunak sumber terbuka, dan siapa pun dapat menggunakannya untuk tujuan apa pun, termasuk tujuan komersial."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_653"
+          }
+        ],
+        "title": "apa itu open source",
+        "action": "action_20633",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_20633_intent_9503"
+        },
+        "variables": [
+          {
+            "title": "Open source adalah jenis pengembangan perangkat lunak di mana ko",
+            "variable": "step_653",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_1861",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_498",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "***Batam Linux User Group***, berdiri Pada tanggal 27 September 2003 dimana pada saat itu masih berstatus sebagai Komunitas dan bergabung sebagai Organisasi Mahasiswa ( ORMAWA ) di Politeknik Negeri Batam pada tahun 2008 dan telah mengadakan berbagai kegiatan internal maupun eksternal."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_498"
+          }
+        ],
+        "title": "Date of Birth",
+        "action": "action_21402",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_21402_intent_38476"
+        },
+        "variables": [
+          {
+            "title": "***Batam Linux User Group***, berdiri Pada tanggal 27 September ",
+            "variable": "step_498",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_8468",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_746",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Untuk saat ini, sobat  bisa bergabung dengan cara join discord BLUG sebagai **\"Buddy\"** menggunakan link berikut yaa ***https://discord.gg/YCBUGyXRx7***"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_746"
+          }
+        ],
+        "title": "How to join",
+        "action": "action_22249",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_22249_intent_44870"
+        },
+        "variables": [
+          {
+            "title": "Untuk saat ini, sobat bisa bergabung dengan cara join discord BL",
+            "variable": "step_746",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_20633",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_593",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "**Hay Hay Sobat BLUG !**\n\nKenalin aku ***Linuxer,***  *Bot Assistant* yang siap membantu Sobat untuk menggunakan platform Web Application Batam Linux User Group.\n\nSobat dapat menanyakan pertanyaan seperti Apa itu BLUG, Sejarah, Event, dan lainya yaa :D\n\n<br />\n\n\n\n*#Indonesia_GoOpenSource*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_593"
+          }
+        ],
+        "title": "Hellow Linuxer !",
+        "action": "action_24069",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_24069_intent_45038"
+        },
+        "variables": [
+          {
+            "title": "**Hay Hay Sobat BLUG !** Kenalin aku ***Linuxer,*** *Bot Assista",
+            "variable": "step_593",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "fallback",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_518",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "BLUG biasanya mengadakan sesi **Belajar dan Berbagi** ( BNB ) guna berbagi ilmu terkait Linux & Open Source dan lainya tentang dunia IT, biasanya Anggota BLUG saling berbagi materi sesuai bidang divisi yang ada, seperti **Siber, Programming, Medinfo** dan **Inti**.\n\nTerlepas dari Divisi yang ada,"
+                          },
+                          {
+                            "scalar": " seluruh anggota BLUG boleh mengikuti keseluruhan kegiatan BNB walaupun tidak sesuai dengan divisi yang dinaungi ,Tidak hanya BNB, BLUG juga sering membuat event - event besar Loh !\n\n<br />\n\n\n\n*#GoOpenSource!*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_518"
+          }
+        ],
+        "title": "Apa yang biasa dilakukan BLUG",
+        "action": "action_35268",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_35268_intent_23010"
+        },
+        "variables": [
+          {
+            "title": "BLUG biasanya mengadakan sesi **Belajar dan Berbagi** ( BNB ) gu",
+            "variable": "step_518",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_21402",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_683",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Berikut event yang diadakan BLUG"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "response_type": "response_from_data_type",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "data_type": "data-type_23938",
+              "max_tries": 3,
+              "allow_topic_switch": false,
+              "response_collection_behavior": "optionally_ask"
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_683",
+            "next_step": "step_936"
+          },
+          {
+            "step": "step_936",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "OSC atau Open Source Competition, adalah Event yang mengadakan perlombaan di kalangan pelajar atau mahasiswa seputar Linux dan Open Source, Seperti Linux Network Adminisrator, CTF, Desain Maskot dan banyak lagi. Para peserta lomba dapat menguji dan melatih kemampuan dalam bidang teknologi informasi seperti jaringan dan pemrograman."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_936",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "OSC",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            },
+            "next_step": "step_210"
+          },
+          {
+            "step": "step_210",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "FOSSDAY atau Free Open Source Software Day, adalah Event yang dilaksanakan oleh seluruh pengurus dimana BLUG mengadakan pameran aplikasi Open Source dan sistem operasi yang terdapat pada Linux. Melalui FOSS Day ini diharapkan masyarakat dapat mengenal aplikasi Open Source dan Sistem Operasi Linux yang tidak kalah dalam hal kualitas dibanding dengan aplikasi dan sistem operasi berbayar."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_210",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "FOSSDAY",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            },
+            "next_step": "step_953"
+          },
+          {
+            "step": "step_953",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "BLUGSUKAN merupakan event yang dilaksanakan dengan mengunjungi Sekolah SMA/SMK dan Masyarakat berada di Kota Batam. Diharapkan dengan kunjungan ini, para pengurus BLUG dapat berbagi ilmu dengan cara mengenalkan dan memberi pembelajan mengenai GNU/Linux dan Open Source kepada Masyarakat yang ada di Kota Batam."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_953",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "BLUGSUKAN",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            },
+            "next_step": "step_374"
+          },
+          {
+            "step": "step_374",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sebuah Event untuk berkontribusi pada proyek Open Source Berhadiah. Gerakan yang mengajak siapa saja yang peduli dan mau berkontribusi pada proyek Open Source di Github. Acara ini berlangsung selama bulan Oktober diseluruh dunia."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_374",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "Hacktoberfest",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            },
+            "next_step": "step_797"
+          },
+          {
+            "step": "step_797",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Event ini merupakan program kerja dari Divisi Programming yang akan di adakan dua kali dalam setahun. Guna dari workshop ini yaitu memberi edukasi kepada mahasiswa dan masyarakat umum, mengenalkan dan menciptakan minat bakat baru di bidang Pemrograman"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_797",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "Workshop Programming",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            },
+            "next_step": "step_497"
+          },
+          {
+            "step": "step_497",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Event ini merupakan program kerja dari divisi Siber yang akan di adakan\ndua kali dalam setahun. Guna dari Seminar ini yaitu memberi edukasi kepada mahasiswa dan masyarakat umum, mengenalkan dan menciptakan minat bakat baru di bidang *Cybersecurity*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_497",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_683"
+                },
+                {
+                  "value": "Seminar Siber",
+                  "from_entity": "entity_35547"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "BLUG Event",
+        "action": "action_37739",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_37739_intent_33481"
+        },
+        "variables": [
+          {
+            "title": "FOSSDAY atau Free Open Source Software Day, adalah Event yang di",
+            "variable": "step_210",
+            "data_type": "any"
+          },
+          {
+            "title": "Sebuah Event untuk berkontribusi pada proyek Open Source Berhadi",
+            "variable": "step_374",
+            "data_type": "any"
+          },
+          {
+            "title": "Event ini merupakan program kerja dari divisi Siber yang akan di",
+            "variable": "step_497",
+            "data_type": "any"
+          },
+          {
+            "title": "Berikut event yang diadakan BLUG",
+            "variable": "step_683",
+            "data_type": "any"
+          },
+          {
+            "title": "Event ini merupakan program kerja dari Divisi Programming yang a",
+            "variable": "step_797",
+            "data_type": "any"
+          },
+          {
+            "title": "OSC atau Open Source Competition, adalah Event yang mengadakan p",
+            "variable": "step_936",
+            "data_type": "any"
+          },
+          {
+            "title": "BLUGSUKAN merupakan event yang dilaksanakan dengan mengunjungi S",
+            "variable": "step_953",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_35268",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_870",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "***Batam Linux User Group*** (BLUG) merupakan **Komunitas Pecinta Linux Indonesia** (KPLI) yang berlokasi di Kota Batam sebagai wadah yang digunakan untuk kegiatan pembelajaran dan pengembangan sistem operasi GNU/Linux dan Open Source Software bagi masyarakat Kota Batam, sebagai sarana perkumpulan bagi para pecinta dan pengguna Linux yang berada di Kota Batam,"
+                          },
+                          {
+                            "scalar": " diharapkan dapat menampung kebutuhan serta sebagai sarana untuk berbagi cerita mengenai masalah yang dihadapi dalam menggunakan Linux dan pengembangan Linux itu sendiri bagi pencinta Linux yang berada di Kota Batam.\n\n<br />\n\n\n\nBerikut Instagram BLUG yang bisa sobat stalk yah agar selalu update :D \n\n***instagram.com/batamlinux***\n\n*#GoOpenSource!*"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_870"
+          }
+        ],
+        "title": "What is BLUG ?",
+        "action": "action_8468",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_8468_intent_18041"
+        },
+        "variables": [
+          {
+            "title": "***Batam Linux User Group*** (BLUG) merupakan **Komunitas Pecint",
+            "variable": "step_870",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_24069",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Aduh, aku tidak mengerti apa yang anda maksud, bisa gunakan kosakata yang lebih spesifik ya :("
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001",
+            "condition": {
+              "lte": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action_and_end",
+              "invoke_action": {
+                "action": "fallback",
+                "parameters": null,
+                "result_variable": "step_002_result_1"
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "gt": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            }
+          }
+        ],
+        "title": "No action matches",
+        "action": "anything_else",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "anything_else"
+        },
+        "variables": [
+          {
+            "title": "Aduh, aku tidak mengerti apa yang anda maksud, bisa gunakan kosa",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002_result_1",
+            "data_type": "any"
+          }
+        ],
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "digression_failure",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Sorry I couldn't confirm if you wanted to return to previous topic, let me connect to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "digression_failure",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Failed to confirm topic return"
+                }
+              ]
+            },
+            "next_step": "step_001"
+          },
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I'm afraid I don't understand. I can connect you to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_001",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Step validation failed"
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Sorry I couldn't assist you. I will connect you to an agent right away."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Agent requested"
+                }
+              ]
+            },
+            "next_step": "step_003"
+          },
+          {
+            "step": "step_003",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I am afraid I do not understand what you are asking, let me connect you to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_003",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "No action matches"
+                }
+              ]
+            },
+            "next_step": "step_004"
+          },
+          {
+            "step": "step_004",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "It seems this conversation would be best managed by a human agent. Let me connect you to one of our agents."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_004",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Danger word detected"
+                }
+              ]
+            },
+            "next_step": "step_005"
+          },
+          {
+            "step": "step_005",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "It seems this conversation would be best managed by a human agent. Let me connect you to one of our agents."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_005",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Profanity detected"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Fallback",
+        "action": "fallback",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "fallback_connect_to_agent"
+        },
+        "variables": [
+          {
+            "title": "Topic return failed",
+            "variable": "digression_failure",
+            "data_type": "any"
+          },
+          {
+            "title": "I'm afraid I don't understand. I can connect you to an agent.",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "title": "Sorry I couldn't assist you. I will connect you to an agent righ",
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "title": "I am afraid I do not understand what you are asking, let me conn",
+            "variable": "step_003",
+            "data_type": "any"
+          },
+          {
+            "title": "It seems this conversation would be best managed",
+            "variable": "step_004",
+            "data_type": "any"
+          },
+          {
+            "title": "Profanity - It seems this conversation",
+            "variable": "step_005",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "run_always",
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "danger_word_detected",
+            "title": "Connect to agent",
+            "handlers": [],
+            "resolver": {
+              "type": "fallback"
+            },
+            "variable": "danger_word_detected_variable",
+            "condition": {
+              "entity": "danger_words"
+            },
+            "next_step": "profanity_detected"
+          },
+          {
+            "step": "profanity_detected",
+            "title": "Show warning",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please use appropriate language when interacting with the assistant."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "max_hits",
+                "handler": "max_hits_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "max_hits": 2,
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "profanity_detected_variable",
+            "condition": {
+              "entity": "profane_words"
+            }
+          }
+        ],
+        "title": "Trigger word detected",
+        "action": "run_always",
+        "boosts": [],
+        "handlers": [],
+        "variables": [
+          {
+            "title": "Profanity detected",
+            "variable": "danger_word_detected_variable",
+            "data_type": "any"
+          },
+          {
+            "title": "Profane word detected",
+            "variable": "profanity_detected_variable",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "anything_else"
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "**Haloow Sobat BLUG !**\n\nUntuk memulai percakapan, yuk kenalan dulu, dengan cara ketik **\"Halo linuxer !\"**"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001",
+            "next_step": "step_640"
+          },
+          {
+            "step": "step_640",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Helloow Buddy ! \n\nHow can I Help You ?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_640",
+            "condition": {
+              "exists": {
+                "system_variable": "digressed_from"
+              }
+            }
+          }
+        ],
+        "title": "Greet customer",
+        "action": "welcome",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "welcome"
+        },
+        "variables": [
+          {
+            "title": "**Haloow Sobat BLUG !** Untuk memulai percakapan, yuk kenalan du",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "title": "Helloow Buddy ! How can I Help You ?",
+            "variable": "step_640",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "action_22249",
+        "disambiguation_opt_out": true
+      }
+    ],
+    "intents": [
+      {
+        "intent": "action_1861_intent_8007",
+        "examples": [
+          {
+            "text": "berapa divisi"
+          },
+          {
+            "text": "Divisi"
+          },
+          {
+            "text": "divisi apa aja"
+          },
+          {
+            "text": "Divisi apa saja yang ada"
+          }
+        ]
+      },
+      {
+        "intent": "action_20633_intent_9503",
+        "examples": [
+          {
+            "text": "apa itu open source"
+          },
+          {
+            "text": "go open source"
+          },
+          {
+            "text": "open source"
+          }
+        ]
+      },
+      {
+        "intent": "action_21402_intent_38476",
+        "examples": [
+          {
+            "text": "Date of Birth"
+          },
+          {
+            "text": "Kapan BLUG didirikan ?"
+          },
+          {
+            "text": "Kapan Tanggal Lahir BLUG ?"
+          },
+          {
+            "text": "Sejarah blug"
+          },
+          {
+            "text": "When is BLUG was founded"
+          }
+        ]
+      },
+      {
+        "intent": "action_22249_intent_44870",
+        "examples": [
+          {
+            "text": "Bagaimana cara bergabung"
+          },
+          {
+            "text": "How to join"
+          },
+          {
+            "text": "Join BLUG ?"
+          },
+          {
+            "text": "Join member Blug"
+          }
+        ]
+      },
+      {
+        "intent": "action_24069_intent_45038",
+        "examples": [
+          {
+            "text": "Hallow Linuxer !"
+          },
+          {
+            "text": "Hellow There !"
+          }
+        ]
+      },
+      {
+        "intent": "action_35268_intent_23010",
+        "examples": [
+          {
+            "text": "Apa yang biasa dilakukan BLUG"
+          },
+          {
+            "text": "BLUG Melakukan apa"
+          },
+          {
+            "text": "Blug ngapain"
+          }
+        ]
+      },
+      {
+        "intent": "action_37739_intent_33481",
+        "examples": [
+          {
+            "text": "acara"
+          },
+          {
+            "text": "ada event apa saja di BLUG"
+          },
+          {
+            "text": "BLUG Event ?"
+          },
+          {
+            "text": "event"
+          },
+          {
+            "text": "proker"
+          }
+        ]
+      },
+      {
+        "intent": "action_8468_intent_18041",
+        "examples": [
+          {
+            "text": "Apa itu BLUG ?"
+          },
+          {
+            "text": "What is BLUG ?"
+          }
+        ]
+      },
+      {
+        "intent": "fallback_connect_to_agent",
+        "examples": [
+          {
+            "text": "Agent help"
+          },
+          {
+            "text": "Call agent"
+          },
+          {
+            "text": "Can I connect to an agent?"
+          },
+          {
+            "text": "I would like to speak to a human"
+          },
+          {
+            "text": "I would like to speak to someone"
+          }
+        ],
+        "description": "Please transfer me to an agent"
+      }
+    ],
+    "entities": [
+      {
+        "entity": "danger_words",
+        "values": [],
+        "fuzzy_match": false
+      },
+      {
+        "entity": "entity_35547",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "BLUGSUKAN",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "FOSSDAY",
+            "synonyms": [
+              "Free Open Source Software Day"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Hacktoberfest",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "OSC",
+            "synonyms": [
+              "Open Source Competition"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Seminar Siber",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Workshop Programming",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "profane_words",
+        "values": [],
+        "fuzzy_match": false
+      },
+      {
+        "entity": "sys-number",
+        "values": []
+      },
+      {
+        "entity": "sys-yes-no",
+        "values": []
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "variables": [],
+    "data_types": [
+      {
+        "title": "PROKER",
+        "entity": "entity_35547",
+        "response": {
+          "options": [
+            {
+              "label": "OSC",
+              "value": {
+                "input": {
+                  "text": "OSC"
+                }
+              }
+            },
+            {
+              "label": "FOSSDAY",
+              "value": {
+                "input": {
+                  "text": "FOSSDAY"
+                }
+              }
+            },
+            {
+              "label": "BLUGSUKAN",
+              "value": {
+                "input": {
+                  "text": "BLUGSUKAN"
+                }
+              }
+            },
+            {
+              "label": "Workshop Programming",
+              "value": {
+                "input": {
+                  "text": "Workshop Programming"
+                }
+              }
+            },
+            {
+              "label": "Seminar Siber",
+              "value": {
+                "input": {
+                  "text": "Seminar Siber"
+                }
+              }
+            },
+            {
+              "label": "Hacktoberfest",
+              "value": {
+                "input": {
+                  "text": "Hacktoberfest"
+                }
+              }
+            }
+          ],
+          "response_type": "option"
+        },
+        "data_type": "data-type_23938"
+      }
+    ],
+    "collections": [],
+    "counterexamples": [],
+    "system_settings": {
+      "variable": {
+        "format": {
+          "time": {
+            "pattern": "short"
+          },
+          "currency": {
+            "fraction_digits": 2
+          }
+        }
+      },
+      "off_topic": {
+        "enabled": true
+      },
+      "auto_learn": {
+        "apply": true
+      },
+      "topic_switch": {
+        "enabled": true,
+        "messages": {
+          "enable_confirmation": true,
+          "confirmation_failure": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "I'm sorry, I did not catch that, please confirm."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              }
+            ]
+          },
+          "confirmation_request": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "Do you want to continue with the previous topic: "
+                        },
+                        {
+                          "system_variable": "digressed_from"
+                        },
+                        {
+                          "scalar": "?"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              },
+              {
+                "options": [
+                  {
+                    "label": "Yes",
+                    "value": {
+                      "input": {
+                        "text": "Yes"
+                      }
+                    }
+                  },
+                  {
+                    "label": "No",
+                    "value": {
+                      "input": {
+                        "text": "No"
+                      }
+                    }
+                  }
+                ],
+                "response_type": "option",
+                "repeat_on_reprompt": true
+              }
+            ]
+          }
+        },
+        "max_tries": 3
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above",
+        "use_connect_to_support_prompt": "Connect to support",
+        "single_answer_clarification_prompt": "Something else"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "created for assistant cd8f2111-bc15-4422-9bc4-2da4f9caa561",
+  "assistant_id": "cd8f2111-bc15-4422-9bc4-2da4f9caa561",
+  "workspace_id": "1b9cc06c-531b-4a38-90f1-4a3ae213519e",
+  "dialog_settings": {},
+  "next_snapshot_version": "2"
+}
